@@ -31,6 +31,11 @@ public class MyJedis implements MyJedisCommands{
     }
 
     @Override
+    public Integer delete(String... keys) {
+        return null;
+    }
+
+    @Override
     public byte[] get(byte[] key) {
         return new byte[0];
     }
